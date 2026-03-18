@@ -9,6 +9,9 @@ export interface Course {
   level: 'Cơ bản' | 'Trung cấp' | 'Nâng cao';
   category: string[];
   image: string;
+  description: string;
+  learningPoints: string[];
+  curriculum: { title: string; lessons: number }[];
 }
 
 export interface Banner {
@@ -23,7 +26,10 @@ export interface Bot {
   id: number;
   name: string;
   description: string;
+  detailedDescription: string;
   features: string[];
+  useCases: string[];
+  specifications: { label: string; value: string }[];
   price: string;
   image: string;
   category: string;
