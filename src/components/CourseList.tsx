@@ -18,7 +18,7 @@ export default function CourseList({ onSelectCourse, onAddToCart }: CourseListPr
               Khám Phá Các Khóa Học
             </h2>
             <p className="text-slate-500 max-w-xl">
-              Nâng tầm kỹ năng media của bạn với các khóa học chuyên nghiệp từ chuyên gia hàng đầu.
+              Từ đơn giản đến nâng cao, nâng tầm kỹ năng của bạn
             </p>
           </div>
         </div>

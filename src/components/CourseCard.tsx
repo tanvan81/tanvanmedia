@@ -43,27 +43,14 @@ export default function CourseCard({ course, onSelect, onAddToCart }: CourseCard
 
       {/* Content */}
       <div className="p-6 flex flex-col flex-grow">
-        <div className="flex gap-2 mb-3">
-          {course.category.map((cat, idx) => (
-            <span key={idx} className="text-[10px] uppercase tracking-wider font-bold text-slate-400 bg-slate-50 px-2 py-0.5 rounded">
-              {cat}
-            </span>
-          ))}
-        </div>
-        
         <h3 className="text-lg font-bold text-slate-900 mb-2 line-clamp-2 group-hover:text-indigo-600 transition-colors">
           {course.title}
         </h3>
 
-        <div className="flex items-center gap-2 text-slate-500 text-sm mb-4">
-          <User className="w-4 h-4" />
-          <span>{course.instructor}</span>
-        </div>
-
         <div className="flex items-center gap-1 mb-6">
           <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
           <span className="text-sm font-bold text-slate-900">{course.rating}</span>
-          <span className="text-xs text-slate-400">({course.reviews} đánh giá)</span>
+          <span className="text-xs text-slate-400">({course.reviews} đã tham gia)</span>
         </div>
 
         <div className="mt-auto flex items-center justify-between pt-4 border-t border-slate-50">

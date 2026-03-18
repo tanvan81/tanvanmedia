@@ -82,6 +82,43 @@ export default function BotDetail({ bot, onBack }: BotDetailProps) {
           </div>
         </div>
 
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mt-20">
+          {/* Detailed Description & Use Cases */}
+          <div className="space-y-12">
+            <div>
+              <h2 className="text-2xl font-bold text-slate-900 mb-6">Mô tả chi tiết</h2>
+              <p className="text-slate-600 leading-relaxed">
+                {bot.detailedDescription}
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold text-slate-900 mb-6">Trường hợp sử dụng</h2>
+              <div className="grid grid-cols-1 gap-4">
+                {bot.useCases.map((useCase, idx) => (
+                  <div key={idx} className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-indigo-500 flex-shrink-0 mt-1" />
+                    <span className="text-slate-600">{useCase}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Specifications */}
+          <div className="bg-slate-50 rounded-[32px] p-8 border border-slate-100">
+            <h2 className="text-2xl font-bold text-slate-900 mb-8">Thông số kỹ thuật</h2>
+            <div className="space-y-6">
+              {bot.specifications.map((spec, idx) => (
+                <div key={idx} className="flex justify-between items-center py-4 border-b border-slate-200 last:border-0">
+                  <span className="text-slate-500 font-medium">{spec.label}</span>
+                  <span className="text-slate-900 font-bold">{spec.value}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
         {/* More Info */}
         <div className="mt-32 grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="text-center">
