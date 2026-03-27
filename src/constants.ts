@@ -4,26 +4,35 @@ export const COURSES: Course[] = [
   {
     id: 3,
     title: "Master Prompt: Phân tích, xây dựng DNA cho kênh",
-    price: "2.500.000 đ",
+    price: "3.000.000 đ",
     reviews: 30,
     duration: "6 giờ",
     level: "Cơ bản",
     image: "/Image/master-prompt.jpg",
-    description: "Khóa học chuyên sâu giúp bạn làm chủ Adobe Premiere Pro từ con số 0. Bạn sẽ học được quy trình dựng phim chuyên nghiệp, cách xử lý hình ảnh, âm thanh và tư duy kể chuyện bằng hình ảnh để tạo ra những video ấn tượng cho YouTube, TikTok hay các dự án truyền thông.",
+    description: "Là khóa học giúp bạn phân tích kênh đối thủ một cách sâu sắc nhất. Từ bản phân tích đó, hướng đến xây dựng BOT mang dấu ấn cá nhân của mỗi chúng ta. Bên cạnh đó, khóa học cũng mag đến cho bạn toàn bộ quy trình từ khâu sản xuất nội dung đến khi có video hoàn chỉnh",
     learningPoints: [
-      "Làm chủ giao diện và các công cụ cắt ghép trong Premiere Pro",
-      "Kỹ thuật chỉnh màu (Color Correction & Grading) chuyên nghiệp",
-      "Xử lý âm thanh, lọc tạp âm và chèn nhạc nền hiệu quả",
-      "Tạo hiệu ứng chuyển cảnh và kỹ thuật Keyframe nâng cao",
-      "Quy trình xuất video chuẩn 4K cho YouTube, Facebook, TikTok",
-      "Tư duy kể chuyện qua video (Storytelling)"
+      "Tìm hiểu về NoteboolLM, cách khai khác công cụ",
+      "Xây dựng DNA cho kênh mình",
+      "Xây dựng Master Prompt hoàn chỉnh dựa trên DNA vừa hoàn thiện",
+      "Xây dựng BOT sản xuất nội dung, theo phong cách cá nhân",
+      "Tối ưu hóa BOT để viết nội dung",
+      "Sử dụng công cụ sao chép voice cục bộ",
+      "Sử dụng ứng dụng khớp voice, hình",
+      "Quy trình tối ưu, khép kín sản xuất video"
     ],
     curriculum: [
-      { title: "Chương 1: Làm quen với giao diện và Import dữ liệu", lessons: 4 },
-      { title: "Chương 2: Kỹ thuật cắt ghép cơ bản và quản lý Timeline", lessons: 6 },
-      { title: "Chương 3: Hiệu ứng hình ảnh và Chuyển cảnh", lessons: 8 },
-      { title: "Chương 4: Chỉnh màu và Xử lý âm thanh", lessons: 5 },
-      { title: "Chương 5: Xuất bản và Tối ưu hóa video", lessons: 3 }
+      { title: "2 Prompt được tối ưu để sử dụng NotebookLM" },
+      { title: "Quy trình huấn luyện để tạo Master prompt"},
+      { title: "Quy trình tối ưu BOT" },
+      { title: "Công cụ clone voice, ứng dụng tạo voice hàng loạt" },
+      { title: "Ứng dụng phân tách nội dung kịch bản" },
+      { title: "Ứng dụng đọc nội dung kịch bản, tạo prompt minh họa" },
+      { title: "Phần mềm ghép voice, ảnh, khớp voice hình" },
+      { title: "Quy trình 10 bước để xây dựng kênh" },
+      { title: "Nhóm chung để trao đổi, hỗ trợ" },
+      { title: "Các buổi zoom để cập nhật kiến thức" }
+
+
     ]
   },
  {
@@ -41,13 +50,16 @@ export const COURSES: Course[] = [
       "Xây dựng nguồn tài nguyên đề dựng video bao gồm âm thanh, hình ảnh, hiệu ứng",
       "Phối hợp các công cụ để dựng video chuyên nghiệp",
       "Quy trình sáng tạo thumb, yếu tố quyết định sự thành công",
-      "Kỹ thuật upload video, tối ưu hóa hệ thống để đạt kết quả"
+      "Kỹ thuật upload video, tối ưu hóa hệ thống để đạt kết quả",
+      "Tư duy nhân bản kênh, gia tăng thu nhập",
+      "Tư duy sản xuất video, xây kênh đúng luật Youtube",
     ],
     curriculum: [
-      { title: "2 Prompt đã được tối ưu hóa để sáng tạo nội dung" },
+      { title: "3 Prompt đã được tối ưu hóa để sáng tạo nội dung" },
       { title: "Công cụ sao chép âm thanh, tối ưu hóa chi phí" },
       { title: "Công cụ download video, xử lý hình ành" },
       { title: "Ứng dụng tạo hàng loạt hình ảnh, tối ưu hóa hiệu suất công việc" },
+      { title: "Công cụ download video, xử lý hình ành" },
     ]
   },
   {
@@ -69,8 +81,8 @@ export const COURSES: Course[] = [
     ],
     curriculum: [
       { title: "Ứng dụng xử lý lỗi chính tả, chuẩn hóa nội dung" },
-      { title: "Ứng dụng bóc tách nội dung, xuất excel", lessons: 6 },
-      { title: "Template video", lessons: 8 },
+      { title: "Ứng dụng bóc tách nội dung, xuất excel" },
+      { title: "Template video" },
       { title: "Công cụ tạo âm thanh miễn phí", lessons: 5 },
       { title: "Công cụ tạo video miễn phí", lessons: 3 }
     ]
@@ -80,7 +92,7 @@ export const COURSES: Course[] = [
     title: "Ngách tôn giáo",
     price: "2.500.000 đ",
     level: "Trung cấp",
-    reviews: 30,
+    reviews: "0",
     duration: "4 giờ",
     image: "/Image/bible-study.jpg",
     description: "Khóa học chuyên sâu giúp bạn làm chủ Adobe Premiere Pro từ con số 0. Bạn sẽ học được quy trình dựng phim chuyên nghiệp, cách xử lý hình ảnh, âm thanh và tư duy kể chuyện bằng hình ảnh để tạo ra những video ấn tượng cho YouTube, TikTok hay các dự án truyền thông.",
@@ -103,8 +115,8 @@ export const COURSES: Course[] = [
   {
     id: 4,
     title: "Ngách Tài Chính",
-    price: "2.000.000 đ",
-    reviews: 5,
+    price: "2.500.000 đ",
+    reviews: "0",
     duration: "6 giờ",
     level: "Trung cấp",
     image: "/Image/finance.jpg",
@@ -130,10 +142,10 @@ export const COURSES: Course[] = [
     title: "Ngách Truyền Động Lực",
     instructor: "Lưu Văn Tân",
     price: "2.500.000 đ",
-    reviews: 4,
+    reviews: "0",
     duration: "6 giờ",
     level: "Trung cấp",
-    image: "/Image/course5.jpg",
+    image: "/Image/motivation.jpg",
     description: "Khóa học chuyên sâu giúp bạn làm chủ Adobe Premiere Pro từ con số 0. Bạn sẽ học được quy trình dựng phim chuyên nghiệp, cách xử lý hình ảnh, âm thanh và tư duy kể chuyện bằng hình ảnh để tạo ra những video ấn tượng cho YouTube, TikTok hay các dự án truyền thông.",
     learningPoints: [
       "Làm chủ giao diện và các công cụ cắt ghép trong Premiere Pro",
@@ -159,21 +171,21 @@ export const BANNERS: Banner[] = [
     title: "Master Prompt",
     description: "Khai thác sức mạnh NotebookLM. Phân tích, xây dựng DNA cho kênh.",
     image: "/Image/master-prompt.jpg",
-    link: "#course-3"
+    link: "course/3"
   },
   {
     id: 2,
     title: "Share key, xây kênh BKT",
     description: "Đồng hành cùng bạn xây kênh, bkt trong 45 ngày.",
     image: "/Image/cam-ket-bkt.jpg",
-    link: "#course-6"
+    link: "course/6"
   },
   {
     id: 3,
     title: "Chủ đề xanh: Dạy học tiếng Anh",
-    description: "Học cách tối ưu chi phí và tiếp cận đúng khách hàng mục tiêu một cách bền vững.",
+    description: "Giúp khán giả học tiếng anh qua các chủ đề lịch sử, drama, truyền động lực",
     image: "/Image/key-tieng-anh.jpg",
-    link: "#course-1"
+    link: "course/1"
   }
 ];
 export const BOTS: Bot[] = [
